@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Tugas | MazdimOfficial</title>
+    <link rel="icon" type="image/png" href="/asset/image/D.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <style>
+        .hover-zoom {
+            display: inline-block;
+            transition: transform 300ms cubic-bezier(.25, .8, .25, 1);
+            transform-origin: center center;
+            will-change: transform;
+        }
+
+        .hover-zoom:hover,
+        .hover-zoom:focus {
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight: bold;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#proyek">Proyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#sertifikat">Sertifikat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#jabatan">Jabatan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center d-flex justify-content-center mx-auto" style="margin-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/asset/sampulMenu/sampulD.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML
+                            BASIC</h5>
+                        <p class="card-text" style="color: silver; font-size: 13px;">4/11-25</p>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="border: none;">
+                                <input class="form-check-input me-1" type="checkbox" value=""
+                                    onclick="this.checked = true;" id="firstCheckbox" checked>
+                                <label class="form-check-label" for="firstCheckbox">Selesai</label>
+                            </li>
+                        </ul>
+                        <a href="/page/basicHtmlJs/latihan1.html" class="btn btn-primary hover-zoom">Lihat Tugas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/asset/sampulMenu/sampulI.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">JAVASCRIPT BASIC</h5>
+                        <p class="card-text" style="color: silver; font-size: 13px;">4/11-25</p>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="border: none;">
+                                <input class="form-check-input me-1" type="checkbox" value=""
+                                    onclick="this.checked = true;" id="firstCheckbox" checked>
+                                <label class="form-check-label" for="firstCheckbox">Selesai</label>
+                            </li>
+                        </ul>
+                        <a href="/page/javascript/latihan1js.html" class="btn btn-primary hover-zoom">Lihat Tugas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/asset/sampulMenu/sampulM.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">-</h5>
+                        <p class="card-text" style="color: silver; font-size: 13px;">-</p>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="border: none;">
+                                <input class="form-check-input me-1" type="checkbox" value=""
+                                    onclick="this.checked = true;" id="firstCheckbox" disabled>
+                                <label class="form-check-label" for="firstCheckbox">Kosong</label>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary hover-zoom">Lihat Tugas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

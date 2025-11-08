@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+
+<body>
+    <!-- LKPD 2 No 1 -->
+    <script>
+        // let InName = "ucup"
+        // let Ingaji = 5000000
+
+        // const tunj = (0.2 * Ingaji)
+        // const pjk = (0.15 * (Ingaji + tunj))
+        // const gaji_bersih = (Ingaji + tunj - pjk)
+
+        // console.log("Halo " + InName + " gaji yang anda input: " + Ingaji +
+        //     " | Tunjangan anda sebesar: " + tunj + " Pajak anda sebesar " + pjk +
+        //     " dan gaji bersih anda sebesar " + gaji_bersih)
+
+        // LKPD 2 No 2
+        // let Injam = 8
+        // let Inmenit = 30
+        // let Indetik = 40
+
+        // const total_detik = (Injam * 3600 + Inmenit * 60 + Indetik)
+        // console.log("_________")
+        // console.log("Input jam: " + Injam)
+        // console.log("Input menit: " + Inmenit)
+        // console.log("Input detik: " + Indetik)
+        // console.log("Total detik: " + total_detik)
+
+        // LKPD 2 No 3
+        let totaldetik = 5440
+
+        const jam = Math.floor(totaldetik / 3600)
+        const sisa = (totaldetik % 3600)
+        const menit = Math.floor(sisa / 60)
+        const detik = sisa % 60
+
+        console.log(jam + menit + detik + sisa)
+    </script>
+</body>
+
+</html>
